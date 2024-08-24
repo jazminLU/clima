@@ -1,0 +1,54 @@
+:root {
+  --white : #FFF;
+  --primary: #1f242d;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Outfit', sans-serif;
+  background-image: url('/bg_clima.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: var(--white);
+  font-size: 2rem;
+}
+/* Estilos básicos para el botón */
+input {
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espaciado interno */
+  border: 2px solid #707070; /* Borde gris */
+  background-color: #F0F0F0; /* Fondo gris claro */
+  color: #707070; /* Color del texto */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambia el cursor cuando pasa sobre el botón */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+}
+
+/* Estilos para cuando el cursor pasa sobre el botón */
+input:hover {
+  background-color: #C0C0C0; /* Fondo gris más claro */
+  color: #000; /* Color del texto más oscuro */
+  border-color: #000; /* Borde gris oscuro */
+}
+
+.footer {
+  padding: 1rem;
+  text-align: center;
+  width: 100%; /* Asegura que el footer ocupe todo el ancho de la página */
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Opcional: sombra para destacar el footer */
+  margin-top: auto; /* Empuja el footer hacia abajo */
+  margin-top: 17rem; /* Ajusta este valor para mover el footer más abajo */
+}
+
+.footer-text p {
+  margin: 0; /* Elimina el margen por defecto */
+  color: #9b9999; /* Color del texto */
+}
+
+.main-content {
+  flex: 1; /* Permite que el contenido crezca para llenar el espacio disponible */
+  margin-bottom: 5rem; /* Añade espacio extra entre el contenido y el footer */
+}
+

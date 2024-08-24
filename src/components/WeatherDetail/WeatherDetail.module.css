@@ -1,0 +1,45 @@
+.container {
+    background-color: rgba(255, 255, 255, 0.2); /* Gris claro con 50% de opacidad */
+    color: #000; /* Color del texto */
+    border-radius: 1rem; /* Bordes redondeados */
+    text-align: center; /* Alineación del texto al centro */
+    padding: 1rem; /* Espaciado interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: sombra suave para destacar */
+  }
+  
+  
+.current {
+    font-size: 6rem;
+    font-weight: 900;
+    margin: 0;
+}
+.temperatures {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.temperatures p {
+    font-weight: 900;
+}
+.temperatures span {
+    font-weight: 400;
+}
+
+
+
+/* Media Queries para pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+    .container {
+        padding: 2rem; /* Aumenta el padding para más espacio interno en móviles */
+        margin-top: 5rem; /* Aumenta el margen superior para que esté más abajo en móviles */
+    }
+
+    .current {
+        font-size: 4rem; /* Reduce el tamaño de la fuente para adaptarse mejor a pantallas pequeñas */
+    }
+
+    .temperatures {
+        flex-direction: column; /* Cambia la dirección de los elementos a columna en móviles */
+        gap: 1rem; /* Reduce el espacio entre los elementos */
+    }
+}
