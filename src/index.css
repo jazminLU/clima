@@ -10,7 +10,7 @@ body {
   background-image: url('/bg_clima.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  min-width: none;
   color: var(--white);
   font-size: 2rem;
 }
@@ -47,8 +47,8 @@ input:hover {
   color: #9b9999; /* Color del texto */
 }
 
+
 .main-content {
   flex: 1; /* Permite que el contenido crezca para llenar el espacio disponible */
   margin-bottom: 5rem; /* Añade espacio extra entre el contenido y el footer */
 }
-
